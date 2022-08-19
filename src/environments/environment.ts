@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  shapeLogo: 'rectangle', //circle
+  companyLogo: 'logo_new.png',
+  // baseUrl: '/',
+  apiUrl: 'https://localhost:7204/api/',
+  // apiUrl: '/api/',
+  apiAuth: 'https://localhost:7204/api/User/Login',
+  // apiAuth: 'http://localhost:50951/api/account/loginad/',
+  localStorageTokenKey: 'base',
 };
 
 /*
